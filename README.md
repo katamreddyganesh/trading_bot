@@ -85,7 +85,7 @@ Project Structure
 
 Demo
 
-###Placing a Market Order:   
+### Placing a Market Order:   
 Output (Binance Futures Testnet)
 ![Market Order Demo](images/market_order.png)
     
