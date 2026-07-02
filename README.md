@@ -1,28 +1,26 @@
 Project Description
 
-    This project is a Python‑based command‑line trading bot that connects to the Binance Futures Testnet. It demonstrates how to integrate with the Binance API, manage trades programmatically, and build a clean CLI interface using Typer.
+    This project is a Python‑based command‑line trading bot that connects to the Binance Futures Testnet. It demonstrates how to integrate with the Binance API,       manage trades programmatically, and build a clean CLI interface using Typer.
     
     The bot allows users to:
     
-    Place MARKET and LIMIT orders directly from the terminal
-    
-    Check open orders to see pending trades
-    
-    Cancel orders that are no longer needed
-    
-    Log all trades and errors into a file (trading_bot.log) for tracking
-    
-    By combining API integration, CLI design, and logging, this project showcases practical backend development skills and real‑world trading workflows. It’s designed as a recruiter‑ready demo to highlight your ability to work with APIs, handle errors gracefully, and build developer‑friendly tools.
+        Place MARKET and LIMIT orders directly from the terminal
+        
+        Check open orders to see pending trades
+        
+        Cancel orders that are no longer needed
+        
+        Log all trades and errors into a file (trading_bot.log) for tracking
+        
+    By combining API integration, CLI design, and logging, this project showcases practical backend development skills and real‑world trading workflows. It’s          designed as a recruiter‑ready demo to highlight your ability to work with APIs, handle errors gracefully, and build developer‑friendly tools.
 
 Setup
     
     1.Clone the repo:
-
          git clone https://github.com/<your-username>/trading_bot.git
          cd trading_bot
 
     2.Create a virtual environment:
-
         python -m venv .venv
         .venv\Scripts\activate   # Windows
         source .venv/bin/activate # Linux/Mac
@@ -64,11 +62,8 @@ Example Output
 Requirements
 
     Python 3.9+
-
     python-binance
-    
     typer
-    
     python-dotenv
 
 
